@@ -93,7 +93,7 @@ int main() {
 
 ```cpp
 #include <iostream>
-#inclede <string>  //引入 string 库，使用 std::string 来表示字符串类型
+#include <string>  //引入 string 库，使用 std::string 来表示字符串类型
 
 int main(void) {
 	// 1.整数
