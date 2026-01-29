@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day_1.md",
+                "file": "Day_2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day_1"
+              "title": "Day_2"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "55bd469b361e0b4f",
@@ -185,8 +186,8 @@
   },
   "active": "58500404e9abad83",
   "lastOpenFiles": [
-    "Day_2.md",
     "Day_1.md",
+    "Day_2.md",
     "build/Debug/temp.o",
     "temp.cpp",
     "Day_1.cpp",
