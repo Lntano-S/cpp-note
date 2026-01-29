@@ -1,4 +1,4 @@
-# "Hello World" & 基础语法
+# Day 1 : "Hello World" & 基础语法
 ## 1.1 "Hello World" 代码剖析
 
 ```cpp
