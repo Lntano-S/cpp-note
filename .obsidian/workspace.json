@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day_2.md",
+                "file": "Day_3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day_2"
+              "title": "Day_3"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "55bd469b361e0b4f",
@@ -186,13 +185,16 @@
   },
   "active": "58500404e9abad83",
   "lastOpenFiles": [
+    "Day_2.md",
+    "README.md",
+    "Day_3.md",
+    "Day_1.md",
+    "未命名",
     "build/Debug/Day_4.o",
     "Day_4.cpp",
     "temp.ipynb",
     "build/Debug/Day_3.o",
     "Day_3.cpp",
-    "Day_1.md",
-    "Day_2.md",
     "build/Debug/temp.o",
     "temp.cpp",
     "Day_1.cpp",
