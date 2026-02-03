@@ -86,4 +86,11 @@ int main(void) {
 
 ## 4.2 String
 
+- 基本语法：
+```cpp
+#include <string>
+
+std::string str_name = "";
+```
+
 
