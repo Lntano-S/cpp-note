@@ -1,5 +1,5 @@
 # Day 2 : Boolean Logic, If - Else, Switch - Case
-
+---
 ## 2.1 Boolean Logic
 
 ### 2.1.1 布尔运算
