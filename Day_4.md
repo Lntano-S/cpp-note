@@ -6,6 +6,8 @@ C++ 中的动态数组相当于 Python 中的列表
 
 - 基本语法：
 ```cpp
+#include <vector> //使用 std::vector 需要包含这个头文件
+
 std::vector<数据类型> vector_name = {元素}
 ```
 ### 4.1.1 序列操作
@@ -53,3 +55,31 @@ std::vector<数据类型> vector_name = {元素}
 	- **元素排序：**`std::sort(v.begin(), v.end());` （告诉算法从那个位置开始排，到哪个位置结束）
 	- **元素插入：**`v.insert(v.begin() + i, x);` （在第 i + 1 个位置插入元素 x）
 	- **元素删除：**`v.erase(v.begin() + i);` （删除第 i + 1 个位置的元素）
+
+### 4.1.3 `size_t` 在传统 for 循环中的应用
+
+在 C++ 中，所有标准库（如 `std::vector` , `std::string`）的 `.size()` 函数返回的类型都是 `size_t` ，即 `unsigned long int`
+
+#### 用传统 for 循环遍历容器
+
+```Python
+def main() -> None:
+	nums: list[int] = [1, 3, 5, 7, 9]
+	for i in range(len(nums)):
+		print(nums[i])
+		
+if __name__ == "__main__":
+	main()
+```
+
+```cpp
+#include <iostream>
+#include <vector>
+int main(void) {
+	std::vector<int> nums = {1, 3, 5, 7, 9};
+	for (std::size_t i = 0; i < nums.size(); i++) {
+		std::cout << nums[i] << std::endl;
+	}
+	return 0;
+}
+```
