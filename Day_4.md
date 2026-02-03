@@ -56,7 +56,7 @@ std::vector<数据类型> vector_name = {元素}
 	- **元素插入：**`v.insert(v.begin() + i, x);` （在第 i + 1 个位置插入元素 x）
 	- **元素删除：**`v.erase(v.begin() + i);` （删除第 i + 1 个位置的元素）
 
-### 4.1.3 `size_t` 在传统 for 循环中的应用
+### 4.1.3 `size_t` 在传统 for 循环中的应用 —— 借助容器"长度"
 
 在 C++ 中，所有标准库（如 `std::vector` , `std::string`）的 `.size()` 函数返回的类型都是 `size_t` ，即 `unsigned long int`
 
