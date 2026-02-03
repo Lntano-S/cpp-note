@@ -1,6 +1,6 @@
 # Day 4 : Vector & String
 ---
-## 4.1 Vector —— 动态数组
+## 4.1 Vector —— 容器
 
 C++ 中的动态数组相当于 Python 中的列表
 
@@ -58,7 +58,7 @@ std::vector<数据类型> vector_name = {元素}
 
 ### 4.1.3 `size_t` 在传统 for 循环中的应用 —— 借助容器"长度"
 
-在 C++ 中，所有标准库（如 `std::vector` , `std::string`）的 `.size()` 函数返回的类型都是 `size_t` ，即 `unsigned long int`
+在 C++ 中，所有标准库（如 `std::vector` , `std::string`）的 `.size()` 函数返回的类型都是 `size_t` ，用来代替 `unsigned long int`
 
 #### 用传统 for 循环遍历容器
 
@@ -83,3 +83,7 @@ int main(void) {
 	return 0;
 }
 ```
+
+## 4.2 String
+
+
