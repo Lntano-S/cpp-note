@@ -31,29 +31,40 @@ int main(void) {
 	int a;
 	int b;
 	
-	show_menu();
-	std::cout << "请输入你的选择：" << std::endl;
-	std::cin >> choice;
-	std::cout << "请分别输入两个实数" << std::endl;
-	std::cin >> a;
-	std::cin >> b;
-	
-	switch (choice) {
-		case 1:
-			std::cout << "两数之和为" << add(a, b) << std::endl;
-			break;
+	while (true) {
+		show_menu();
+		std::cout << "请输入你的选择：" << std::endl;
+		std::cin >> choice;
+		
+		if (choice < 1 || choice > 4) {
+			std::cout << "无效选项，清重新输入" << std::endl;
+			continue;
+		}
+		
+			std::cout << "请分别输入两个实数" << std::endl;
+			std::cin >> a >> b;
 			
-		case 2:
-			std::cout << "两数之差为" << substract(a, b) << std::endl;
-			break;
-			
-		case 3:
-			std::cout << "两数之商为" << divide(a, b) << std::endl;
-			break;
-			
-		case 4:
-			std::cout << "两数之积为" << multiply(a, b) << std::endl;
-			break;
+		switch (choice) {
+			case 1:
+				std::cout << "两数之和为" << add(a, b) << std::endl;
+				break;
+				
+			case 2:
+				std::cout << "两数之差为" << substract(a, b) << std::endl;
+				break;
+				
+			case 3:
+				std::cout << "两数之商为" << divide(a, b) << std::endl;
+				break;
+				
+			case 4:
+				std::cout << "两数之积为" << multiply(a, b) << std::endl;
+				break;
+				
+			default:
+				break;
+		}
+		break;
 	}
 	return 0;
 }

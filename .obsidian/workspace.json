@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day_5. Functions.md",
+                "file": "Day_6. Pointer & Reference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day_5. Functions"
+              "title": "Day_6. Pointer & Reference"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "58500404e9abad83",
   "lastOpenFiles": [
-    "Day_2. Boolean Logic, If - Else, Switch - Case.md",
     "Day_5. Functions.md",
+    "Day_6. Pointer & Reference.md",
+    "Day_2. Boolean Logic, If - Else, Switch - Case.md",
     "Day_1. \"Hello World\" & 基础语法.md",
     "Day_4. Vector & String.md",
     "Day_3. Loops.md",
