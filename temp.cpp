@@ -1,70 +1,32 @@
 #include <iostream>
 #include <vector>
 
-void show_menu() {
-	std::cout << "1.加 2.减 3.除 4.乘" << std::endl;
-}
+void get_stats(const std::vector<double> &scores, double &max_score, double &min_score, double &total) {
 
-double add(double a, double b) {
-	return a + b;
-}
-
-double substract(double a, double b) {
-	return a - b;
-}
-
-double multiply(double a, double b)  {
-	return a * b;
-}
-
-double divide(double a, double b) {
-	if (b != 0) {
-		return a / b;
-	} else if (b == 0) {
-		std::cout << "除数不能为0,请重新输入" << std::endl;
-		return 0;
+	for (double score: scores) {
+		if (score > max_score) {
+			max_score = score;
+		}
+		
+		if (score < min_score) {
+			min_score = score;
+		}
+		
+		total += score;
 	}
 }
 
 int main(void) {
-	int choice;
-	int a;
-	int b;
+	std::vector<double> scores = {80.0, 90.0, 100.0, 50.0};
+	double max_score = scores[0];
+	double min_score = scores[0];
+	double total = 0;
 	
-	while (true) {
-		show_menu();
-		std::cout << "请输入你的选择：" << std::endl;
-		std::cin >> choice;
-		
-		if (choice < 1 || choice > 4) {
-			std::cout << "无效选项，清重新输入" << std::endl;
-			continue;
-		}
-		
-			std::cout << "请分别输入两个实数" << std::endl;
-			std::cin >> a >> b;
-			
-		switch (choice) {
-			case 1:
-				std::cout << "两数之和为" << add(a, b) << std::endl;
-				break;
-				
-			case 2:
-				std::cout << "两数之差为" << substract(a, b) << std::endl;
-				break;
-				
-			case 3:
-				std::cout << "两数之商为" << divide(a, b) << std::endl;
-				break;
-				
-			case 4:
-				std::cout << "两数之积为" << multiply(a, b) << std::endl;
-				break;
-				
-			default:
-				break;
-		}
-		break;
-	}
+	get_stats(scores, max_score, min_score, total);
+	
+	std::cout << "最高分：" << max_score << std::endl;
+	std::cout << "最低分：" << min_score << std::endl;
+	std::cout << "班级总分：" << total << std::endl;
+	
 	return 0;
 }
