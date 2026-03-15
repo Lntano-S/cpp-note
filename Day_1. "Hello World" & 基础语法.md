@@ -59,9 +59,9 @@ std::cin >> user_name;
 
 		-  特别地，在 C++ 中
 			-    **访问作用域/命名空间/类静态成员**：用 `::`（作用域解析符）。
-					*   例如：`std::cout` 或 `MyClass::static_method()`
+				*   例如：`std::cout` 或 `MyClass::static_method()`
 			*   **访问对象的成员**：用 `.`（点操作符）。
-				* 例如：`my_obj.run()`
+				*   例如：`my_obj.run()`
 			*   **访问指针指向对象的成员**：用 `->`（箭头操作符）。
 
 	2. **函数名等可能出现的冲突**：
@@ -103,6 +103,10 @@ int main(void) {
 	
 	// 2.双精度浮点数
 	double price = 19.99; //C++ 中一般不使用 float
+	// *浮点数大小比较*：差值 与 误差范围进行比较
+	bool are_equal(double a, double b) {
+		return std::abs(a - b) < 1e-9;
+		}
 	
 	// 3.字符
 	char ch = 'a'; //必须使用单引号
