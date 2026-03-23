@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "Day_1. \"Hello World\" & 基础语法"
             }
-          },
-          {
-            "id": "3d8634862337c0c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CyberFeng 语音智能助手 —— 后端核心模块汇报.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CyberFeng 语音智能助手 —— 后端核心模块汇报"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,13 +180,23 @@
               "icon": "lucide-list",
               "title": "Day_1 的大纲"
             }
+          },
+          {
+            "id": "22b0e62c09bee410",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,13 +206,16 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3d8634862337c0c3",
+  "active": "22b0e62c09bee410",
   "lastOpenFiles": [
-    "Day_5. Functions.md",
+    "未命名 1.base",
+    "未命名.base",
     "CyberFeng 语音智能助手 —— 后端核心模块汇报.md",
+    "Day_5. Functions.md",
     "cpp_homework/选择结构/output/2分段函数",
     "Day_2. Boolean Logic, If - Else, Switch - Case.md",
     "cpp_homework/选择结构/2分段函数.cpp",
@@ -230,7 +229,6 @@
     "cpp_homework/顺序结构/2逆序数.cpp",
     "output/pointer_函数指针",
     "pointer_函数指针.cpp",
-    "output/pointer_template",
     "Day_6. Pointer & Reference.md",
     "README.md"
   ]
