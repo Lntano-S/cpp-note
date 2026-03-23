@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day_1. \"Hello World\" & 基础语法.md",
+                "file": "CyberFeng 语音智能助手 —— 后端核心模块汇报.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day_1. \"Hello World\" & 基础语法"
+              "title": "CyberFeng 语音智能助手 —— 后端核心模块汇报"
             }
           }
         ],
@@ -63,19 +63,6 @@
         "id": "c1ca62ad5c23b669",
         "type": "tabs",
         "children": [
-          {
-            "id": "9d0293679277a0a8",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
           {
             "id": "93fa0db1ffcb9e6c",
             "type": "leaf",
@@ -102,8 +89,22 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "fc9e30e2f31a1707",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -214,22 +215,23 @@
   },
   "active": "3d8634862337c0c3",
   "lastOpenFiles": [
-    "Day_3. Loops.md",
+    "Day_5. Functions.md",
+    "CyberFeng 语音智能助手 —— 后端核心模块汇报.md",
+    "cpp_homework/选择结构/output/2分段函数",
     "Day_2. Boolean Logic, If - Else, Switch - Case.md",
+    "cpp_homework/选择结构/2分段函数.cpp",
+    "cpp_homework/选择结构/2",
+    "cpp_homework/选择结构/22",
+    "cpp_homework/选择结构/output/1判断季节",
+    "cpp_homework/选择结构/output",
+    "Day_1. \"Hello World\" & 基础语法.md",
+    "Day_3. Loops.md",
     "Day_4. Vector & String.md",
     "cpp_homework/顺序结构/2逆序数.cpp",
-    "Day_1. \"Hello World\" & 基础语法.md",
     "output/pointer_函数指针",
     "pointer_函数指针.cpp",
-    "Day_5. Functions.md",
     "output/pointer_template",
-    "pointer_template.cpp",
-    "pointer2.cpp",
-    "pointer1.cpp",
     "Day_6. Pointer & Reference.md",
-    "output/main",
-    "output",
-    "main.cpp",
     "README.md"
   ]
 }
