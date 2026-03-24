@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,24 +197,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "22b0e62c09bee410",
+  "active": "fdae8832fbf28b3c",
   "lastOpenFiles": [
+    "cpp_homework/循环结构/output/1饮料换购",
+    "cpp_homework/循环结构/output",
+    "Day_3. Loops copy.md",
+    "pointer_模板（template） copy.cpp",
+    "cpp_homework/循环结构/1饮料换购.cpp",
+    "cpp_homework/循环结构",
+    "cpp_homework/选择结构/output/4",
+    "cpp_homework/选择结构/4.cpp",
+    "cpp_homework/选择结构/3求某年某月的天数(2).cpp",
+    "cpp_homework/选择结构/3求某年某月的天数(1).cpp",
+    "cpp_homework/选择结构/output/3求某年某月的天数",
+    "cpp_homework/选择结构/3求某年某月的天数.cpp",
     "Day_3. Loops.md",
     "Day_2. Boolean Logic, If - Else, Switch - Case.md",
     "Day_1. \"Hello World\" & 基础语法.md",
-    "未命名 1.base",
-    "未命名.base",
     "CyberFeng 语音智能助手 —— 后端核心模块汇报.md",
     "Day_5. Functions.md",
-    "cpp_homework/选择结构/output/2分段函数",
-    "cpp_homework/选择结构/2分段函数.cpp",
-    "cpp_homework/选择结构/2",
-    "cpp_homework/选择结构/22",
-    "cpp_homework/选择结构/output/1判断季节",
-    "cpp_homework/选择结构/output",
     "Day_4. Vector & String.md",
-    "cpp_homework/顺序结构/2逆序数.cpp",
-    "output/pointer_函数指针",
     "Day_6. Pointer & Reference.md",
     "README.md"
   ]
