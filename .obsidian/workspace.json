@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "55bd469b361e0b4f",
@@ -199,6 +198,11 @@
   },
   "active": "fdae8832fbf28b3c",
   "lastOpenFiles": [
+    "Day_3. Loops.md",
+    "Day_4. Vector & String.md",
+    "Day_6. Pointer & Reference.md",
+    "Day_5. Functions.md",
+    "Day_2. Boolean Logic, If - Else, Switch - Case.md",
     "cpp_homework/循环结构/output/1饮料换购",
     "cpp_homework/循环结构/output",
     "Day_3. Loops copy.md",
@@ -210,14 +214,8 @@
     "cpp_homework/选择结构/3求某年某月的天数(2).cpp",
     "cpp_homework/选择结构/3求某年某月的天数(1).cpp",
     "cpp_homework/选择结构/output/3求某年某月的天数",
-    "cpp_homework/选择结构/3求某年某月的天数.cpp",
-    "Day_3. Loops.md",
-    "Day_2. Boolean Logic, If - Else, Switch - Case.md",
     "Day_1. \"Hello World\" & 基础语法.md",
     "CyberFeng 语音智能助手 —— 后端核心模块汇报.md",
-    "Day_5. Functions.md",
-    "Day_4. Vector & String.md",
-    "Day_6. Pointer & Reference.md",
     "README.md"
   ]
 }
