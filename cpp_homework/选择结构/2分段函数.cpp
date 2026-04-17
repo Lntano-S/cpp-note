@@ -5,7 +5,7 @@ double func(double x) {
     if (x > 25) {
         return x + 25;
     } else if (x == 25.0) {
-        return 20.;
+        return 20;
     } else {
         return 3 * x;
     }

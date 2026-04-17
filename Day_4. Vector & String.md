@@ -111,7 +111,7 @@ int main(void) {
 	
 	// 3. 获取长度
 	size_t len = name.length();
-	size_t len = name.siaze();
+	size_t len = name.size();
 	
 	// 4. 合并，与 Vector 不同
 	std::string combine = name + adj;

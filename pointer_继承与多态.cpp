@@ -6,7 +6,7 @@ protected:
     std::string name;
 
 public:
-    SmartDevice(const std::string& _name) : name(_name) {}
+    SmartDevice(const std::string& _name) : name(_name) {} // 构造函数
 
     virtual void run() {
         std::cout << "设备" << name << "正在待机" << std::endl;
