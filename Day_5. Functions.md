@@ -34,7 +34,7 @@ int add_nums(int a, int b) {
 
 ### 5.1.2 两类常见函数
 
-### void func —— 无返回值的函数，相当于 Python 中的 `-> None`
+### ( 1 ) void func —— 无返回值的函数，相当于 Python 中的 `-> None`
 
 **以实现打印功能为例**
 
@@ -53,7 +53,7 @@ int main(void) {
 }
 ```
 
-### return func —— 有返回值的函数
+### ( 2 ) return func —— 有返回值的函数
 
 1. 返回值为简单类型：`int, double, char, bool` 等
 2. 返回值为复杂类型：使用命名空间的类型 `std::string, std::vector` 等

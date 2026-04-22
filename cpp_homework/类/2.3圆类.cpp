@@ -4,12 +4,11 @@ using namespace std;
 const float PI = 3.14;
 
 class Circle {
-public:
+private:
     float r;
 
-    Circle(int _r) : r(_r) {
-        r = _r;
-    }
+public: 
+    Circle(int _r) : r(_r) {}
 
     float getArea() {
         return PI * r * r;

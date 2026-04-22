@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberFeng 语音智能助手 —— 后端核心模块汇报.md",
+                "file": "Class & Object.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CyberFeng 语音智能助手 —— 后端核心模块汇报"
+              "title": "Class & Object"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "55bd469b361e0b4f",
@@ -199,7 +200,14 @@
   "active": "fdae8832fbf28b3c",
   "lastOpenFiles": [
     "Day_1. \"Hello World\" & 基础语法.md",
+    "Class & Object.md",
+    "未命名未命名.md",
+    "cpp_homework/类/1.2时间日期.cpp",
+    "Day_5. Functions.md",
+    "cpp_homework/类/output/2.2运算符重载",
     "Day_4. Vector & String.md",
+    "Day_2. Boolean Logic, If - Else, Switch - Case.md",
+    "CyberFeng 语音智能助手 —— 后端核心模块汇报.md",
     "cpp_homework/类/1.2.cpp",
     "cpp_homework/类/output/1.1BankAccount",
     "cpp_homework/类/output",
@@ -208,14 +216,9 @@
     "cpp_homework/类/1.1BankAccount.cpp",
     "cpp_homework/类/2.1BankAccount.cpp",
     "cpp_homework/类/1.BankAccount.cpp",
-    "temp",
-    "output/temp",
-    "Day_2. Boolean Logic, If - Else, Switch - Case.md",
     "Day_3. Loops.md",
     "Day_6. Pointer & Reference.md",
-    "Day_5. Functions.md",
     "Day_3. Loops copy.md",
-    "CyberFeng 语音智能助手 —— 后端核心模块汇报.md",
     "README.md"
   ]
 }

@@ -7,10 +7,9 @@ private:
 public:
     BankAccount() {
         balance = 0;
-    }
+    }  
 
-    BankAccount(int m) : balance(m) {
-    }
+    BankAccount(int m = 0) : balance(m) {}
 
     int getbalance() {
         return balance;
@@ -42,10 +41,10 @@ int main(void) {
 
         if (operation == 'w') {
             account_1.withdraw(amount);
-            std::cout << "balance:" << account_1.getbalance() << "\n"; 
+            std::cout << "balance: " << account_1.getbalance() << "\n"; 
         } else if (operation == 'd') {
             account_1.deposit(amount);
-            std::cout << "balance:" << account_1.getbalance() << "\n"; 
+            std::cout << "balance: " << account_1.getbalance() << "\n"; 
         }
     }
 
