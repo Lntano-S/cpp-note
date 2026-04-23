@@ -119,6 +119,7 @@ public:
 #### 1.1 默认构造函数 ( Default Constructor )
 
 - **特点：** 可以不传任何参数就调用的构造函数
+
 #### 1.2 带参构造函数 ( Parameterized Constructor )
 
 - **特点：** 接受一个或多个参数，在创建对象时提供具体数据
@@ -159,12 +160,39 @@ Point(const Point& p) : x(p.x), y(p.y) {
 	  // 这是因为程序运行离开它们所在的 {} 作用域时，它们的生命周期就结束了，系统会自动调用析构函数，销毁对象，回收它们占用的内存
 	```
 
-	1. **存放在 “堆（Heap）” 上的对象 —— 手动销毁**
+	2. **存放在 “堆（Heap）” 上的对象 —— 手动销毁**
+
+	```cpp
+	// 在 main 函数中声明
+	int main(void) {
+		// ----------
+		// 使用 new 关键字申请内存，创建新对象
+		Point* p = new Point(1, 2);
+		// ----------
+		// 在适当位置使用 delete 关键字手动释放内存
+		delete p;
+		// ----------
+		return 0;
+	}
+	```
+
 - **基本语法：** 
 ```cpp
-~
+class Mystring {
+private:
+	char* data;
+public:
+	// 构造函数
+	Mystring(int size) : data(new char[size]) {}
+	
+	// 析构函数
+	~Mystring() {
+		delete[] data
+	}	
+};
 ```
 
+- **`new char[size]`** —— 向操作系统在 **堆（Heap）** 中申请一块连续的内存空间，这块空间的大小刚好能连着放下 `size` 个 `char`
 # EX_2 : 矩形类
 
 ```cpp
