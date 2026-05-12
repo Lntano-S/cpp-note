@@ -18,7 +18,7 @@ int main(void) {
 
     for (int i = 1; i <= n; i++) {
         round += pow(-1.0, i - 1) * pow(x, 2 * i - 1) / fact(2 * i - 1);
-    } 
+    }
 
     printf("%.8lf", round);
 

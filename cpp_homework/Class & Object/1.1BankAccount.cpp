@@ -4,14 +4,10 @@ class BankAccount {
 private:
     int balance;
 
-public:
-    BankAccount() {
-        balance = 0;
-    }  
-
+public: 
     BankAccount(int m = 0) : balance(m) {}
 
-    int getbalance() {
+    int getbalance() const {
         return balance;
     }
 
