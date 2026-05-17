@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "综合练习.md",
+                "file": "Day_4. Vector & String.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "综合练习"
+              "title": "Day_4. Vector & String"
             }
           },
           {
@@ -212,9 +212,10 @@
   },
   "active": "fdae8832fbf28b3c",
   "lastOpenFiles": [
+    "cpp_homework/Vector_cpp/output/3.数组元素循环右移",
+    "综合练习.md",
     "cpp_homework/类/output/综合练习-BusCard",
     "Class & Object.md",
-    "综合练习.md",
     "cpp_homework/类/综合练习-BusCard.cpp",
     "Day_1. \"Hello World\" & 基础语法.md",
     "未命名未命名.md",
@@ -230,7 +231,6 @@
     "cpp_homework/类/2.3圆类.cpp",
     "cpp_homework/类/2.3",
     "cpp_homework/类/1.1BankAccount.cpp",
-    "cpp_homework/类/2.1BankAccount.cpp",
     "Day_3. Loops.md",
     "Day_6. Pointer & Reference.md",
     "Day_3. Loops copy.md",
