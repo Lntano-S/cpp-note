@@ -10,9 +10,12 @@ int main(void) {
     std::cin >> n;
 
     for (int male = 0; male <= (n / 7); male++) {
-        int female = 
+        if ((n - 7 * male) % 5 == 0) {
+            int female = (n - 7 * male) / 5;
+            int children = n - male - female;
+            std::cout << male << " " << female << " " << children << std::endl;
+        }
     }
 
-    std::cout << male << " " << female << " " << children << std::endl;
     return 0;
 }

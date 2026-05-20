@@ -15,7 +15,7 @@ int main(void) {
     for (int i = m; i >= 100; i--) {
         int digit_1 = i % 10;
         int digit_2 = (i / 10) % 10;
-        int digit_3 = i / 100; // 现在这里最多只会被 999 除以 100，安全了
+        int digit_3 = i / 100; // 现在这里最多只会被 999 除以 100
 
         if (pow(digit_1, 3) + pow(digit_2, 3) + pow(digit_3, 3) == i) {
             std::cout << i << std::endl;
