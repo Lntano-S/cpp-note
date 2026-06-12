@@ -12,7 +12,7 @@ int main(void) {
         cin >> arr[i];
     }
     
-    M = M % N;
+    // M = M % N;
 
     vector<int> front(arr.begin() + (N-M), arr.end());
     vector<int> behind(arr.begin(), arr.begin() + (N-M));
@@ -21,6 +21,8 @@ int main(void) {
     for (int j = 0; j < N; j++) {
         cout << front[j] << " ";
     }
+
+    cout << "\n";
 
     return 0;
 }

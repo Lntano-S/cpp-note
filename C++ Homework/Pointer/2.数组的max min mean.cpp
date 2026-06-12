@@ -5,7 +5,7 @@ using namespace std;
 float fun(int a[], int n, int *max, int *min) {
     *max = a[0];
     *min = a[0];
-    float total = 0.0;
+    int total = 0;
     
     for (int i = 0; i < n; i++) {
         int current = a[i];
