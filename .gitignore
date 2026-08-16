@@ -1,0 +1,25 @@
+# 编译产物
+build/
+**/output/
+*.o
+*.obj
+*.exe
+*.out
+
+# macOS 垃圾
+.DS_Store
+**/__MACOSX/
+._*
+
+# Obsidian 工作区状态（个人配置，不同步）
+.obsidian/workspace.json
+.obsidian/workspace
+
+# 他人内容，不纳入版本库
+15天速通C++/
+
+# 实验报告
+实验/
+
+# 汇报附件
+/CyberFeng 语音智能助手 —— 后端核心模块汇报.pdf
