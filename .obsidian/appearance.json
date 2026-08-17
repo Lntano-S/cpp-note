@@ -1,1 +1,13 @@
-{}
+{
+  "interfaceFontFamily": "LXGW ZhenKai GB",
+  "textFontFamily": "LXGW ZhenKai GB",
+  "monospaceFontFamily": "LXGW ZhenKai GB",
+  "baseFontSize": 16,
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "extended-colorschemes",
+    "yaozhuwa@CSS"
+  ],
+  "theme": "obsidian",
+  "accentColor": "#669cff"
+}

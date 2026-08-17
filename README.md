@@ -8,7 +8,6 @@
 C++ Markdown/    课程笔记（Day_1 ~ Day_6）
 C++ Homework/    课后作业源码（按章节组织）
 算法/            算法与指针进阶练习
-Excalidraw/      Excalidraw 绘图
 ```
 
 ## 内容一览

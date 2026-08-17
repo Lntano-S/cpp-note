@@ -4,14 +4,20 @@
   "copyFrameLinkByName": false,
   "disableDoubleClickTextEditing": false,
   "phoneFooterSafeAreaPadding": false,
+  "tabletFooterSafeAreaPadding": false,
   "folder": "Excalidraw",
+  "libraryFolderPath": "Excalidraw/Libraries",
+  "libraryFileName": "local-library",
+  "libraryStorageMode": "vault",
+  "libraryMigrationStatus": "not-required",
+  "libraryMigrationSnoozeUntil": 0,
   "cropFolder": "",
   "annotateFolder": "",
   "embedUseExcalidrawFolder": false,
   "templateFilePath": "Excalidraw/Template.excalidraw",
   "scriptFolderPath": "Excalidraw/Scripts",
   "fontAssetsPath": "Excalidraw/CJK Fonts",
-  "loadChineseFonts": false,
+  "loadChineseFonts": true,
   "loadJapaneseFonts": false,
   "loadKoreanFonts": false,
   "compress": true,
@@ -44,8 +50,8 @@
   "overrideObsidianFontSize": false,
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
-  "desktopUIMode": "tray",
-  "tabletUIMode": "compact",
+  "desktopUIMode": "compact",
+  "tabletUIMode": "full",
   "phoneUIMode": "mobile",
   "iframeMatchExcalidrawTheme": true,
   "matchTheme": false,
@@ -68,8 +74,8 @@
   "zoomStep": 0.05,
   "zoomMin": 0.1,
   "zoomMax": 30,
-  "linkPrefix": "",
-  "urlPrefix": "",
+  "linkPrefix": "📍",
+  "urlPrefix": "🌐",
   "parseTODO": false,
   "todo": "☐",
   "done": "🗹",
@@ -107,8 +113,8 @@
   "experimentalLivePreview": true,
   "fadeOutExcalidrawMarkup": false,
   "loadPropertySuggestions": false,
-  "experimentalEnableFourthFont": false,
-  "experimantalFourthFont": "Virgil",
+  "experimentalEnableFourthFont": true,
+  "experimantalFourthFont": "Fonts/LXGWZhenKaiGB-Regular.ttf",
   "addDummyTextElement": false,
   "zoteroCompatibility": false,
   "fieldSuggester": true,
@@ -120,23 +126,66 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag2.23.12",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag2.23.2",
     "libraryItems": []
   },
   "imageElementNotice": true,
   "mdSVGwidth": 500,
   "mdSVGmaxHeight": 800,
-  "mdFont": "Cascadia",
+  "mdFont": "Virgil",
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
-  "scriptEngineSettings": {},
-  "previousRelease": "2.23.12",
+  "markdownImageSettings": {
+    "defaults": {
+      "width": 500,
+      "paddingBottom": 10,
+      "fontFamily": "Virgil",
+      "fontColor": "Black",
+      "border": {
+        "enabled": false,
+        "color": "Black"
+      },
+      "css": "",
+      "transclusion": {
+        "enabled": false,
+        "fontFamily": "Cascadia",
+        "fontColor": "Black",
+        "border": {
+          "enabled": false,
+          "color": "Black"
+        },
+        "css": ""
+      }
+    }
+  },
+  "scriptEngineSettings": {
+    "Downloaded/Convert freedraw to line": {
+      "Point density": {
+        "value": "7:1",
+        "valueset": [
+          "1:1",
+          "2:1",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:1",
+          "10:1",
+          "11:1"
+        ],
+        "description": "A freedraw object has many points. Converting freedraw to a line with too many points will result in an impractical object that is hard to edit. This setting sepcifies how many points from freedraw should be averaged to form a point on the line"
+      }
+    }
+  },
+  "previousRelease": "2.26.4",
   "showReleaseNotes": true,
   "excalidrawMasteryPromoCollapsed": false,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
-  "latexBoilerplate": "\\color{green}e=mc^2",
+  "latexBoilerplate": "\\color{blue}",
   "latexPreambleLocation": "preamble.sty",
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
@@ -146,7 +195,37 @@
     {
       "type": "default",
       "freedrawOnly": false,
-      "strokeColor": "#000000",
+      "strokeColor": "#ffffff",
+      "fillStyle": "hachure",
+      "strokeWidth": 0,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": 0,
+        "options": {
+          "thinning": 0.6,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          }
+        }
+      },
+      "backgroundColor": "transparent"
+    },
+    {
+      "type": "default",
+      "freedrawOnly": true,
       "backgroundColor": "transparent",
       "fillStyle": "hachure",
       "strokeWidth": 0,
@@ -155,7 +234,39 @@
         "highlighter": false,
         "constantPressure": false,
         "hasOutline": false,
-        "outlineWidth": 1,
+        "outlineWidth": 0,
+        "options": {
+          "thinning": 0.6,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          }
+        }
+      },
+      "strokeColor": "#447bd5"
+    },
+    {
+      "type": "default",
+      "freedrawOnly": false,
+      "strokeColor": "#ff0000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": 0,
         "options": {
           "thinning": 0.6,
           "smoothing": 0.5,
@@ -175,80 +286,17 @@
       }
     },
     {
-      "type": "highlighter",
+      "type": "default",
       "freedrawOnly": true,
-      "strokeColor": "#FFC47C",
-      "backgroundColor": "#FFC47C",
-      "fillStyle": "solid",
+      "strokeColor": "#000000",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
-      "roughness": null,
+      "roughness": 0,
       "penOptions": {
         "highlighter": true,
-        "constantPressure": true,
-        "hasOutline": true,
-        "outlineWidth": 4,
-        "options": {
-          "thinning": 1,
-          "smoothing": 0.5,
-          "streamline": 0.5,
-          "easing": "linear",
-          "start": {
-            "taper": 0,
-            "cap": true,
-            "easing": "linear"
-          },
-          "end": {
-            "taper": 0,
-            "cap": true,
-            "easing": "linear"
-          }
-        }
-      }
-    },
-    {
-      "type": "finetip",
-      "freedrawOnly": false,
-      "strokeColor": "#3E6F8D",
-      "backgroundColor": "transparent",
-      "fillStyle": "hachure",
-      "strokeWidth": 0.5,
-      "roughness": 0,
-      "penOptions": {
-        "highlighter": false,
-        "hasOutline": false,
-        "outlineWidth": 1,
-        "constantPressure": true,
-        "options": {
-          "smoothing": 0.4,
-          "thinning": -0.5,
-          "streamline": 0.4,
-          "easing": "linear",
-          "start": {
-            "taper": 5,
-            "cap": false,
-            "easing": "linear"
-          },
-          "end": {
-            "taper": 5,
-            "cap": false,
-            "easing": "linear"
-          }
-        }
-      }
-    },
-    {
-      "type": "fountain",
-      "freedrawOnly": false,
-      "strokeColor": "#000000",
-      "backgroundColor": "transparent",
-      "fillStyle": "hachure",
-      "strokeWidth": 2,
-      "roughness": 0,
-      "penOptions": {
-        "highlighter": false,
         "constantPressure": false,
         "hasOutline": false,
-        "outlineWidth": 1,
+        "outlineWidth": 0,
         "options": {
           "smoothing": 0.2,
           "thinning": 0.6,
@@ -265,7 +313,8 @@
             "easing": "linear"
           }
         }
-      }
+      },
+      "backgroundColor": "#ffffff"
     },
     {
       "type": "marker",
@@ -454,17 +503,17 @@
       }
     }
   ],
-  "numberOfCustomPens": 0,
+  "numberOfCustomPens": 4,
   "pdfScale": 4,
-  "pdfBorderBox": true,
+  "pdfBorderBox": false,
   "pdfFrame": false,
-  "pdfGapSize": 20,
-  "pdfGroupPages": false,
+  "pdfGapSize": 10,
+  "pdfGroupPages": true,
   "pdfLockAfterImport": true,
   "pdfNumColumns": 1,
   "pdfNumRows": 1,
   "pdfDirection": "right",
-  "pdfImportScale": 0.3,
+  "pdfImportScale": 0.5,
   "gridSettings": {
     "DYNAMIC_COLOR": true,
     "COLOR": "#000000",
@@ -620,16 +669,7 @@
       "providerId": "Google Gemini",
       "model": "gemini-2.5-flash-image",
       "supportedSizes": [
-        "1024x1024",
-        "848x1264",
-        "1264x848",
-        "896x1200",
-        "1200x896",
-        "928x1152",
-        "1152x928",
-        "768x1376",
-        "1376x768",
-        "1584x672"
+        "1024x1024"
       ],
       "supportsPromptImageTransforms": true,
       "supportsMaskImageEdits": false
@@ -638,62 +678,7 @@
       "providerId": "Google Gemini",
       "model": "gemini-3.1-flash-image-preview",
       "supportedSizes": [
-        "512x512",
-        "1024x1024",
-        "2048x2048",
-        "4096x4096",
-        "424x632",
-        "848x1264",
-        "1696x2528",
-        "3392x5056",
-        "632x424",
-        "1264x848",
-        "2528x1696",
-        "5056x3392",
-        "448x600",
-        "896x1200",
-        "1792x2400",
-        "3584x4800",
-        "600x448",
-        "1200x896",
-        "2400x1792",
-        "4800x3584",
-        "464x576",
-        "928x1152",
-        "1856x2304",
-        "3712x4608",
-        "576x464",
-        "1152x928",
-        "2304x1856",
-        "4608x3712",
-        "384x688",
-        "768x1376",
-        "1536x2752",
-        "3072x5504",
-        "688x384",
-        "1376x768",
-        "2752x1536",
-        "5504x3072",
-        "792x168",
-        "1584x672",
-        "3168x1344",
-        "6336x2688",
-        "256x1024",
-        "512x2048",
-        "1024x4096",
-        "2048x8192",
-        "192x1536",
-        "384x3072",
-        "768x6144",
-        "1536x12288",
-        "1024x256",
-        "2048x512",
-        "4096x1024",
-        "8192x2048",
-        "1536x192",
-        "3072x384",
-        "6144x768",
-        "12288x1536"
+        "1024x1024"
       ],
       "supportsPromptImageTransforms": true,
       "supportsMaskImageEdits": false
@@ -702,36 +687,7 @@
       "providerId": "Google Gemini",
       "model": "gemini-3-pro-image-preview",
       "supportedSizes": [
-        "1024x1024",
-        "2048x2048",
-        "4096x4096",
-        "848x1264",
-        "1696x2528",
-        "3392x5056",
-        "1264x848",
-        "2528x1696",
-        "5056x3392",
-        "896x1200",
-        "1792x2400",
-        "3584x4800",
-        "1200x896",
-        "2400x1792",
-        "4800x3584",
-        "928x1152",
-        "1856x2304",
-        "3712x4608",
-        "1152x928",
-        "2304x1856",
-        "4608x3712",
-        "768x1376",
-        "1536x2752",
-        "3072x5504",
-        "1376x768",
-        "2752x1536",
-        "5504x3072",
-        "1584x672",
-        "3168x1344",
-        "6336x2688"
+        "1024x1024"
       ],
       "supportsPromptImageTransforms": true,
       "supportsMaskImageEdits": false
@@ -758,7 +714,7 @@
   "aiDefaultTextModel": "gpt-5-mini",
   "aiDefaultImageGenerationModel": "gpt-image-1",
   "aiDefaultMaxOutgoingTokens": 0,
-  "aiDefaultMaxResponseTokens": 0,
+  "aiDefaultMaxResponseTokens": 4096,
   "modifierKeyConfig": {
     "Mac": {
       "LocalFileDragAction": {
@@ -1006,7 +962,7 @@
         "rules": [
           {
             "shift": false,
-            "ctrl_cmd": false,
+            "ctrl_cmd": true,
             "alt_opt": false,
             "meta_ctrl": false,
             "result": "active-pane"
@@ -1079,5 +1035,6 @@
     "alignment": "center",
     "margin": "normal"
   },
-  "disableContextMenu": false
+  "disableContextMenu": false,
+  "isDebugMode": false
 }
