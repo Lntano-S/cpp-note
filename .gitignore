@@ -11,9 +11,8 @@ build/
 **/__MACOSX/
 ._*
 
-# Obsidian 工作区状态（个人配置，不同步）
-.obsidian/workspace.json
-.obsidian/workspace
+# Obsidian 配置与工作区状态（个人配置，不同步）
+.obsidian/
 
 # 他人内容，不纳入版本库
 15天速通C++/
@@ -23,3 +22,13 @@ build/
 
 # 汇报附件
 /CyberFeng 语音智能助手 —— 后端核心模块汇报.pdf
+
+# 编辑器配置与临时文件
+.vscode/
+*.swp
+.~*
+
+# 编译出的可执行文件（无扩展名，按具体路径挡）
+Algorithm/算法与数据结构实验/lab01_polynomial/poly
+Algorithm/算法与数据结构实验/lab01_polynomial/Poly
+Algorithm/算法与数据结构实验/lab02_expression/expr
