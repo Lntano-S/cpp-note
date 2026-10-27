@@ -1,29 +1,33 @@
 # C++ 学习笔记
 
-大一 C++ 课程的完整学习记录：课程笔记、课后作业实现、算法练习。用 Obsidian 管理，Markdown 为主。
+大一 C++ 课程的完整学习记录：课程笔记、课后作业、算法练习与数据结构实验。用 Obsidian 管理，Markdown 为主。
 
 ## 目录结构
 
 ```
-C++ Markdown/    课程笔记（Day_1 ~ Day_6）
-C++ Homework/    课后作业源码（按章节组织）
-算法/            算法与指针进阶练习
+Cpp-Notes/                      课程笔记
+Cpp-Homework/                   课后作业源码（按章节组织）
+Algorithm/                      算法练习
+  Data-Structure-Labs/          数据结构课程实验
+Review/                         期末复习
 ```
 
 ## 内容一览
 
-### C++ Markdown/
+### Cpp-Notes/
 
 Day_1 ~ Day_6 的课程笔记，覆盖：
 
 - Day_1：Hello World 与基础语法
 - Day_2：Boolean Logic、If-Else、Switch-Case
-- Day_3：循环
+- Day_3：Loops
 - Day_4：Vector 与 String
-- Day_5：函数
-- Day_6：指针与引用
+- Day_5：Functions
+- Day_6：Pointer 与 Reference
 
-### C++ Homework/
+另附 `Class & Object.md`，以及 CyberFeng 语音智能助手后端模块的汇报稿。
+
+### Cpp-Homework/
 
 按章节组织的作业实现：
 
@@ -40,21 +44,52 @@ Day_1 ~ Day_6 的课程笔记，覆盖：
 | 虚函数 | 图形抽象类的派生 |
 | 综合练习 | MyVector 实现 |
 
-### 算法/
+### Algorithm/
 
-算法与指针进阶练习：链表（Linklist）、函数指针、模板（template）、继承与多态、滑动窗口、最大公约数等。
+算法与指针进阶练习：链表、函数指针、模板、继承与多态、滑动窗口、最大公约数等。
+
+#### Algorithm/Data-Structure-Labs/
+
+数据结构课程实验。题目与要求见 `数据结构实验指导.doc`，报告模板也在同一层。
+
+| 实验 | 主题 | 源码 |
+|------|------|------|
+| 实验一 | 一元多项式的加法运算 | `lab01_polynomial/Poly.cpp` |
+| 实验二 | 表达式求值（栈） | `lab02_expression/` |
+
+### Review/
+
+期末复习材料。`综合1.cpp` 是综合练习的参考实现，`未命名.md` 是复习草稿。
 
 ## 编译运行
 
-环境：Linux + g++，C++ 标准建议 `-std=c++17`。
+环境：Linux + g++，标准用 `-std=c++17`。
+
+普通作业：
 
 ```bash
-# 以 Loops 的一个作业为例
-g++ "C++ Homework/Loops/1饮料换购.cpp" -o demo
+g++ "Cpp-Homework/Loops/1饮料换购.cpp" -std=c++17 -o demo
 ./demo
 ```
 
-## 说明
+实验一：
 
-- 编译产物（`output/`、`build/` 等）已被 `.gitignore` 排除，不入库
-- 笔记文件建议用 Obsidian 打开，配合 Excalidraw 绘图查看
+```bash
+cd Algorithm/Data-Structure-Labs/lab01_polynomial
+g++ Poly.cpp -std=c++17 -o poly
+./poly
+```
+
+实验二：
+
+```bash
+cd Algorithm/Data-Structure-Labs/lab02_expression
+g++ main.cpp -std=c++17 -o expr
+./expr
+```
+
+## 约定
+
+- 编译产物（`output/`、`build/`、无扩展名的可执行文件）由 `.gitignore` 排除，不入库
+- 编辑器配置 `.vscode/`、Obsidian 配置 `.obsidian/` 均不入库
+- 笔记建议用 Obsidian 打开，配合 Excalidraw 绘图查看

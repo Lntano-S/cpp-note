@@ -29,6 +29,6 @@ build/
 .~*
 
 # 编译出的可执行文件（无扩展名，按具体路径挡）
-Algorithm/算法与数据结构实验/lab01_polynomial/poly
-Algorithm/算法与数据结构实验/lab01_polynomial/Poly
-Algorithm/算法与数据结构实验/lab02_expression/expr
+Algorithm/Data-Structure-Labs/lab01_polynomial/poly
+Algorithm/Data-Structure-Labs/lab01_polynomial/Poly
+Algorithm/Data-Structure-Labs/lab02_expression/expr
