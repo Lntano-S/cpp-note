@@ -128,7 +128,7 @@ g++ main.cpp -std=c++17 -o expr.exe
 
 - 编译产物带 `.exe` 后缀，`.gitignore` 已用 `*.exe` 覆盖，不会误入库
 - 中文文件名与中文路径可直接使用，Git 在 UTF-8 与 NTFS 之间自动转换
-- 控制台中文输出正常，MinGW 按系统区域把字符串字面量转成本地编码，936 代码页能正确显示
+- 程序输出的是 UTF-8 字节，而 Windows 默认控制台代码页是 936，直接运行会显示成乱码。手动运行前先执行 `chcp 65001`，或者用 `.vscode/tasks.json` 里的运行任务（已自动处理）
 - `std::thread` 可用，w64devkit 的 GCC 是 posix 线程模型
 - 换行符交给 Git 处理：Windows 侧检出为 CRLF、提交时转回 LF，Linux 侧始终是 LF。两端的 `core.autocrlf` 保持各自默认值，不要手动改
 - 大小写不敏感：同一目录下不要出现只有大小写差别的文件名
