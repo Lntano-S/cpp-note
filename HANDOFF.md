@@ -67,12 +67,15 @@ cpp-note/
 
 题目：用栈求一个任意输入的表达式的值，支持个位数或多位数，小数可选，要求自定义存储结构。
 
-设计：模板类 `Stack<T>`，拆成 `Stack.h` + `main.cpp`。
+已定：**支持小数**，一步到位。
+
+设计：模板类 `Stack<T>`，全部写在单个文件 `expr.cpp` 里，不分头文件。操作数栈用 `Stack<double>`，运算符栈用 `Stack<char>`。
 
 ### 已完成
 
-- `Stack.h` 骨架：`MAXSIZE = 100`、`T data[MAXSIZE]`、`int top`、构造函数 `top(-1)`
-- `main.cpp` 里 `Stack<int> s;`，让模板实例化
+- `expr.cpp` 已就位（原 `main.cpp` 改名，`Stack.h` 已删除）
+- 栈的骨架：`MAXSIZE = 100`、`T data[MAXSIZE]`、`int top`、构造函数 `top(-1)`
+- `main` 里留了 `Stack<double> opnd;` 和 `Stack<char> optr;` 的位置
 
 ### 还没写
 
@@ -92,11 +95,12 @@ T    getTop() const;         // 只看不弹
 
 ## 五、下一步（按顺序）
 
-1. `Stack` 五个成员函数
+1. 把 `Stack` 五个成员函数写进 `expr.cpp`：`empty`、`full`、`push`、`pop`、`getTop`
 2. 自测：`push(1) push(2) push(3)`，三次 `pop` 得 `321`
-3. 优先级表
-4. 主循环，把 `1+2*3` 跑出 `7`
-5. 实验报告四节：算法思想、存储结构描述及说明、函数原型及说明
+3. 数字解析：整行读进 `string`，逐字符扫，支持多位数与小数
+4. 优先级表：7×7，`+ - * / ( ) #`
+5. 主循环，`1+2*3` 跑出 `7`，`1.5+2.25*3` 跑出 `8.25`
+6. 实验报告四节：算法思想、存储结构描述及说明、函数原型及说明
 
 ## 六、编码约定
 
@@ -169,7 +173,7 @@ g++ Poly.cpp -o poly
 ```bash
 # 实验二，现在只能验语法
 cd ../lab02_expression
-g++ main.cpp -o expr
+g++ expr.cpp -o expr
 # 没有输出就是对的
 ```
 
