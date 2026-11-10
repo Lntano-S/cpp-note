@@ -112,7 +112,7 @@ Linux：
 
 ```bash
 cd Algorithm/Data-Structure-Labs/lab02_expression
-g++ main.cpp -std=c++17 -o expr
+g++ expr.cpp -std=c++17 -o expr
 ./expr
 ```
 
@@ -120,7 +120,7 @@ Windows（PowerShell）：
 
 ```powershell
 cd Algorithm\Data-Structure-Labs\lab02_expression
-g++ main.cpp -std=c++17 -o expr.exe
+g++ expr.cpp -std=c++17 -o expr.exe
 .\expr.exe
 ```
 
